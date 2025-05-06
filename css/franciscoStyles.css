@@ -1,0 +1,33 @@
+body {
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+}
+
+#card {
+    justify-content: space-around;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+h1 {
+    margin: 0;
+    padding: 20px 0;
+    color: #97CE4C;
+    text-shadow: 3px 3px 1px black;
+}
+
+.card {
+    margin: 10px;
+}
+
+.regreso{
+    background-color: #7285e2;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 5px 10px;
+    cursor: pointer;
+    margin-bottom: 2rem;
+}
