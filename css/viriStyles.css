@@ -1,0 +1,17 @@
+:root {
+    --bs-primary: #e91e63  !important;
+}
+
+.text-primary {
+    color: var(--bs-primary) !important;
+}
+
+body{
+    font-family: 'Century Gothic';
+}
+
+.titulo-rick {
+    font-size: 2.8rem;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+}
+  
