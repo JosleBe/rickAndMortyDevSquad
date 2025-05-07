@@ -13,6 +13,9 @@ body {
   align-items: center;
 }
 
+.nav-link{
+  font-family: "Creepster", cursive; 
+}
 .logo {
   object-fit: cover;
   width: 300px;
