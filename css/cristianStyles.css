@@ -1,5 +1,5 @@
 body {
-  background-color: rgb(220, 220, 220);
+  background-color: rgb(220, 220, 220) !important;
   font-family: Century Gothic, sans-serif;
 }
 
@@ -10,6 +10,7 @@ body {
   padding: 20px;
   width: 85%;
   height: max-content;
+  margin-top: 20px;
 }
 
 .container-card {
@@ -25,7 +26,7 @@ h3 {
   color: #000;
 }
 
-img {
+.card img {
   width: 150px;
   height: 150px;
   margin: auto;
@@ -34,7 +35,7 @@ img {
   border-radius: 15px;
 }
 
-img:hover {
+.card img:hover {
   box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
   width: 200px;
   height: 200px;
@@ -65,7 +66,7 @@ span {
   justify-content: end;
 }
 
-button {
+.card button {
   background-color: #7285e2;
   color: #fff;
   border: none;
